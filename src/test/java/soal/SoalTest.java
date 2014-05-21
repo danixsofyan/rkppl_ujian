@@ -35,7 +35,7 @@ public class SoalTest {
 	
 	@Test
 	public void test5(){
-		assertEquals("Seharusnaya", 6, s.perkalian(2, 3));
+		assertEquals("Seharusnaya", 6, s.pangkat(2, 4));
 	}
 	
 	@Test
@@ -46,6 +46,7 @@ public class SoalTest {
 	@After
 	public void akhir(){
 		System.out.println("Akhir Test");
+		
 	}
 	
 }
