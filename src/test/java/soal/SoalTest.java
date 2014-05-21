@@ -25,12 +25,12 @@ public class SoalTest {
 	
 	@Test
 	public void test3(){
-		assertEquals("Seharusnaya", 12, s.perkalian(6, 2));
+		assertEquals("Seharusnaya", 2, s.faktorial(2));
 	}
 	
 	@Test
 	public void test4(){
-		assertEquals("Seharusnaya", 6, s.perkalian(2, 3));
+		assertEquals("Seharusnaya", 2, s.faktorial(4));
 	}
 	
 	@Test
