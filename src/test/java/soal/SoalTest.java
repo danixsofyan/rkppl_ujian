@@ -15,7 +15,7 @@ public class SoalTest {
 	
 	@Test
 	public void test1(){
-		assertEquals("Seharusnaya", 10, s.perkalian(2, 5));
+		assertEquals("Seharusnaya", 50, s.perkalian(10, 5));
 	}
 	
 	@Test
