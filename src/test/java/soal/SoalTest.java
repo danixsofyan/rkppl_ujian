@@ -6,7 +6,7 @@ import org.junit.*;
 
 public class SoalTest {
 
-	Soal s ;
+	Soal s = new Soal();
 	
 	@Before
 	public void awal(){
@@ -15,17 +15,17 @@ public class SoalTest {
 	
 	@Test
 	public void test1(){
-		assertEquals("Hasilnya", 4, s.pangkat(2, 2));
+		assertEquals("Seharusnaya", 10, s.perkalian(2, 5));
 	}
 	
 	@Test
 	public void test2(){
-		assertEquals("Seharusnaya", 6, s.perkalian(2, 3));
+		assertEquals("Seharusnaya", 10, s.perkalian(2, 5));
 	}
 	
 	@Test
 	public void test3(){
-		assertEquals("Seharusnaya", 6, s.perkalian(2, 3));
+		assertEquals("Seharusnaya", 12, s.perkalian(6, 2));
 	}
 	
 	@Test
