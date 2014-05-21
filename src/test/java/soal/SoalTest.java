@@ -30,7 +30,7 @@ public class SoalTest {
 	
 	@Test
 	public void test4(){
-		assertEquals("Seharusnaya", 2, s.faktorial(4));
+		assertEquals("Seharusnaya", 2, s.faktorial(2));
 	}
 	
 	@Test
