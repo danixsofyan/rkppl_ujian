@@ -40,7 +40,7 @@ public class SoalTest {
 	
 	@Test
 	public void test6(){
-		assertEquals("Seharusnaya", 6, s.perkalian(2, 3));
+		assertEquals("Seharusnaya", 6, s.pangkat(2, 4));
 	}
 	
 	@After
